@@ -9,7 +9,6 @@ Page({
    */
   data: {
     productList: [], // 商品列表
-  
   },
 
   /**
@@ -23,7 +22,7 @@ Page({
     qcloud.request({
       url: config.service.productList,
       success: result => {
-        console.log("success")
+        //console.log("success")
         wx.hideLoading()
 
         let data = result.data
