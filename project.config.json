@@ -2,9 +2,13 @@
 	"miniprogramRoot": "./client",
 	"qcloudRoot": "./server",
 	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
 		"newFeature": true
 	},
-	"appid": "touristappid",
+	"appid": "你的 App ID",
 	"projectname": "cn-wechat-term2",
 	"condition": {
 		"search": {
@@ -27,8 +31,9 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "detail",
-					"pathName": "pages/detail/detail"
+					"name": "商品详情页",
+					"pathName": "pages/detail/detail",
+					"query": ""
 				}
 			]
 		}

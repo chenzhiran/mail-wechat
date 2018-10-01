@@ -11,9 +11,6 @@ Page({
     productList: [], // 商品列表
   },
 
-  /**
-   * API数据
-   */
   getProductList() {
     wx.showLoading({
       title: '商品数据加载中...',
@@ -22,7 +19,6 @@ Page({
     qcloud.request({
       url: config.service.productList,
       success: result => {
-        //console.log("success")
         wx.hideLoading()
 
         let data = result.data
@@ -47,9 +43,7 @@ Page({
         })
       }
     })
-  },  
-
-
+  },
 
   /**
    * 生命周期函数--监听页面加载

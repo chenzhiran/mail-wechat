@@ -45,24 +45,23 @@
   height: 241rpx;
 }
 
-.list-title{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:90rpx 0 35rpx;
+.list-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 90rpx 0 35rpx;
 }
 
-.list-title-line{
-  width:21rpx;
-  height:34rpx;
+.list-title-line {
+  width: 21rpx;
+  height: 34rpx;
 }
 
-.list-title-text{
-  margin:0 20rpx;
-  font-size:28rpx;
-  font-weight:bold;
+.list-title-text {
+  margin: 0 20rpx;
+  font-size: 28rpx;
+  font-weight: bold;
 }
-
 
 .product-row {
   display: flex;
@@ -77,7 +76,6 @@
   border-radius: 13rpx;
 }
 
-/*二者的边距*/
 .product-card:first-child {
   margin-right: 27rpx;
 }
@@ -100,12 +98,13 @@
   margin: 9rpx 21rpx 15rpx;
 }
 
-.product-money,.product-add {
+.product-money,
+.product-add {
   width: 36rpx;
   height: 36rpx;
   line-height: 36rpx;
   text-align: center;
-  border-radius: 50%;/*圆形*/
+  border-radius: 50%;
   color: #34373D;
   font-weight: 900;
   background: #F7E687;
@@ -124,5 +123,3 @@
   margin: 0 10rpx;
   font-size: 28rpx;
 }
-
-                         
