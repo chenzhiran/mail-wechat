@@ -8,8 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    product: {id:6},
-    
+    product: {},
   },
 
   getProduct(id) {
