@@ -9,6 +9,7 @@ Page({
    */
   data: {
     productList: [], // 商品列表
+  
   },
 
   getProductList() {
@@ -19,6 +20,10 @@ Page({
     qcloud.request({
       url: config.service.productList,
       success: result => {
+<<<<<<< HEAD
+=======
+        console.log("success")
+>>>>>>> parent of 5f0479f... show detail page
         wx.hideLoading()
 
         let data = result.data

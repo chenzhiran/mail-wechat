@@ -10,6 +10,7 @@
 	},
 	"appid": "你的 App ID",
 	"projectname": "cn-wechat-term2",
+<<<<<<< HEAD
 	"condition": {
 		"search": {
 			"current": -1,
@@ -38,4 +39,7 @@
 			]
 		}
 	}
+=======
+	"condition": {}
+>>>>>>> parent of 5f0479f... show detail page
 }

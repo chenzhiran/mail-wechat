@@ -1,10 +1,9 @@
 {
-  "pages": [
+  "pages":[
     "pages/home/home",
     "pages/order/order",
     "pages/trolley/trolley",
-    "pages/user/user",
-    "pages/detail/detail"
+    "pages/user/user"
   ],
   "tabBar": {
     "list": [
@@ -34,11 +33,18 @@
       }
     ]
   },
+<<<<<<< HEAD
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ececee",
+=======
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+>>>>>>> parent of 5f0479f... show detail page
     "navigationBarTitleText": "Wafer Quick Start",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle":"black"
   }
 }
